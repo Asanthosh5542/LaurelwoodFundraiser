@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+header {
+    padding: 15px;
+    background: #8b6436;
+}
+
+h1 {
+    color: #fff;
+    font-size: 68px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+p {
+    color: white;
+    font-family: cursive;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#error {
+    color: red;
+    font-family: cursive;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.product-wrap {
+    float:initial;
+    margin: 10px;
+    padding: 5px;
+}
+.product {
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 30.5%;
+    border: 1px solid #cdcdcd;
+    float: left;
+}
+.img {
+    height: 200px;
+}
+.order {
+    background-color: #8b6436;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.checkout {
+    background-color: #8b6436;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 16px 0 !important;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+table#receipt {
+    width: 500px;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+}
+
+body {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #c8c8c8;
+    height: 39px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #c8c8c8;
+    height: 44px;
+    font-size: 18px;
+}
+.product img {
+    height: 194px;
+    width: 400px;
+}
+input {
+    height: 25px;
+    border: 1px solid #a9a8a8;
+    border-radius: 5px;
+    padding: 5px;
+}
+.security-code {
+    width: 25%;
+    border: 1px solid #c6c6c6;
+    padding: 3%;
+    margin-top: 3%;
+    float: left;
+}
+.security-code-p {
+    width: 53%;
+    padding: 7%;
+    padding-top: 3%;
+    font-size: 13px;
+    float: right;
+    color: #9e9fa0;
+    margin: 0 0 0px;
+    text-align: start;
+}
+
+.year-select {
+    color: #9e9fa0;
+    width: 38%;
+    margin-left: 2%;
+    border: 1px solid #bfbfbf;
+    padding: 3%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.month-select {
+	color: #9e9fa0;
+	width: 44%;
+	border: 1px solid #bfbfbf;
+	padding: 3%;
+	border-radius: 5px;
+}
+
+.proceed-button {
+	background: #00af6c;
+	width: 100%;
+	padding: 4%;
+	border: 0px solid green;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    cursor: pointer;
+}
+.payment-details {
+    width: 406px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 60px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+p.credit-card-title {
+    font-size: 22px;
+    color: #000;
+}
+
+input.long-number {
+    width: 100%;
+}
+input.long-number {
+    width: 93%;
+    border: 1px solid #bfbfbf;
+    padding: 3%;
+    margin-bottom: 19px;
+}
+.card-form {
+    float: left;
+    width: 100%;
+}

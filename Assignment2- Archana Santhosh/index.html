@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>`
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Laurelwood Oldage Home Fundraiser
+        </h1>
+        <p>Hello and welcome to our small scale fundraiser for the Laurelwood Oldage Home.</p>
+
+    </header>
+
+    <div class="product-wrap">
+        <h2>Products</h2>
+        <div class="product">
+            <div class="img">
+                <img src="images/product1.jpg" width="200px" alt="">
+            </div>
+            <h3>Couch </h3>
+            <h5>15 CAD</h5>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity1" name="quantity1">
+            <button class="order" onclick="addtocart('Couch',15)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="img">
+                <img src="images/product2.jpg" width="200px" alt="">
+            </div>
+            <h3>Bed Frame - King Size</h3>
+            <h5>32 CAD</h5>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity2" name="quantity2">
+            <button class="order" onclick="addtocart('Bed Frame',32)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="img">
+                <img src="images/product3.jpg" width="200px" alt="">
+            </div>
+            <h3>Coffee Table</h3>
+            <h5>7.99 CAD</h5>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity3" name="quantity3">
+            <button class="order" onclick="addtocart('Coffee Table',7.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="img">
+                <img src="images/product4.jpg" width="200px" alt="">
+            </div>
+            <h3>Book Shelf</h3>
+            <h5>5.6 CAD</h5>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity4" name="quantity4">
+            <button class="order" onclick="addtocart('Book Shelf',5.6)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="img">
+                <img src="images/product5.jpg" width="200px" alt="">
+            </div>
+            <h3>Vintage Armchair</h3>
+            <h5>9.28 CAD</h5>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity5" name="quantity5">
+            <button class="order" onclick="addtocart('Vintage Armchair', 9.28)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <div class="img">
+                <img src="images/product6.jpg" width="200px" alt="">
+            </div>
+            <h3>Sofa Set</h3>
+            <h5>42.7 CAD</h5>
+            <label for="quantity">Quantity</label>
+            <input type="text" id="quantity6" name="quantity6">
+            <button class="order" onclick="addtocart('Sofa Set',42.7)">Add to Cart</button>
+        </div>
+    </div>
+    </div>
+    <form action="" onsubmit="return validateForm();" method="post">
+        <div class="card-form">
+            <div class="">
+
+                <div class="payment-details">
+                    <p class="credit-card-title">Payment Details</p>
+                    <input id="name" type="text" class="long-number" placeholder="Enter Your Name" required>
+                    <input id="email" type="email" class="long-number" placeholder="Enter Your Email" required>
+                    <input id="card" class="long-number" type="tel" inputmode="numeric" autocomplete="cc-number"
+                        maxlength="19" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                    <input id="month" class="month-select minimal" placeholder="Expiry Month" required>
+                    <input id="year" class="year-select minimal" placeholder="Expiry Year" required>
+                    <input type="tel" class="security-code" placeholder="CVV">
+                    <p class="security-code-p">3 or 4 digits found on the signature strip</p>
+                    <div class="bottom-buttons">
+                        <div class="proceed">
+                            <button type="submit" class="proceed-button" value="submit">Proceed</button>
+                        </div>
+                        <p id="error"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="main.js"></script>
+</html>
